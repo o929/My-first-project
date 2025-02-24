@@ -6,7 +6,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>My first project</title>
+    <title>Omar</title>
     <!-- main template css  -->
     <link rel="stylesheet" href="css/leon.css">
     <!-- normalize -->
@@ -21,48 +21,19 @@
     <!-- Font awesomne -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<script>
-    let mege = document.getElementById("mega-menu");
-    let btn = document.getElementById("btn");
-    let otherLinks = document.getElementById("other-links")
-
-    otherLinks.addEventListener("click" , ()=>{
-        if(mege.style.display == "none"){
-            mege.style.display = "block"
-        }else(
-            mege.style.display = "none"
-        )
-    })
-    window.onscroll = function () {
-        if (window.scrollY >= 1600) {
-            btn.style.display = "block";
-        } else {
-            btn.style.display = "none";
-        }
-    }
-    btn.onclick = function () {
-        window.scrollTo({
-            left: 0,
-            top: 0,
-            behavior: "smooth"
-        })
-    }
-</script>
 <style>
-    #btn {
+    #btn{
         border: none;
         border-radius: 6px;
         cursor: pointer;
     }
-
-    #arrow-up {
+    #arrow-up{
         font-size: 35px;
         color: rgb(90, 89, 89);
     }
 </style>
-
 <body>
-
+    
     <!-- Start hrader -->
     <div class="header" id="header">
         <div class="container">
@@ -71,9 +42,10 @@
                 <li><a href="#article">Article</a></li>
                 <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#feature">Feature</a></li>
-                <li><a href="" id="other-links" onclick="display()">other links</a>
+                <li><a href="">other links</a>
                     <!-- Start mega menu -->
-                    <div id="mega-menu" class="mega-menu">
+                    <div class="mega-menu">
+            
                         <ul class="links">
                             <li>
                                 <a href="#team members">
@@ -120,16 +92,16 @@
                                     <i class="fa fa-certificate" aria-hidden="true"></i>Our Stats </i>
                                 </a>
                             </li>
-                </li>
-            </ul>
-        </div>
-        </li>
+                        </li>
+                    </ul>
+                </div>
+            </li>
         </ul>
     </div>
     </div>
     <!-- End mega menu -->
     <!-- End hrader -->
-
+    
     <!--Start landing   -->
     <div class="landing">
         <div class="container">
@@ -137,12 +109,12 @@
                 <h1>Welcome , To Omar Website</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta commodi iusto aliquid nihil culpa sed
                     nobis similique architecto quo, tenetur omnis reiciendis, obcaecati</p>
+                </div>
+                <div class="image">
+                    <img src="image/1.image.png" alt="">
+                </div>
             </div>
-            <div class="image">
-                <img src="image/1.image.png" alt="">
-            </div>
-        </div>
-        <a href="#article" class="go-down">
+            <a href="#article" class="go-down">
             <i class="fa fa-angle-double-down" aria-hidden="true"></i>
         </a>
     </div>
@@ -224,41 +196,41 @@
                     <img src="image/gallery-01.png" alt="">
                 </div>
             </div>
-
+            
             <div class="box">
                 <div class="image">
                     <img src="image/gallery-02.png" alt="">
                 </div>
             </div>
-
+            
             <div class="box">
                 <div class="image">
                     <img src="image/gallery-03.jpeg" alt="">
                 </div>
             </div>
-
+            
             <div class="box">
                 <div class="image">
                     <img src="image/gallery-04.png" alt="">
                 </div>
             </div>
-
+            
             <div class="box">
                 <div class="image">
                     <img src="image/gallery-05.jpeg" alt="">
                 </div>
             </div>
-
+            
             <div class="box">
                 <div class="image">
                     <img src="image/gallery-06.png" alt="">
                 </div>
             </div>
-
+            
         </div>
     </div>
     <div class="spikes"></div>
-
+    
     <!-- End gallery -->
     <!-- Start feature -->
     <div class="feature" id="feature">
@@ -272,7 +244,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minima repudiandae !</p>
                 <a href="">More</a>
             </div>
-
+            
             <div class="box time">
                 <div class="img-holder">
                     <img src="image/labtop.png" alt="">
@@ -281,7 +253,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi minima repudiandae !</p>
                 <a href="">More</a>
             </div>
-
+            
             <div class="box passion">
                 <div class="img-holder">
                     <img src="image/mini labtop.png" alt="">
@@ -294,9 +266,9 @@
         </div>
     </div>
     <div class="spikes"></div>
-
+    
     <!-- End feature -->
-
+    
     <!-- Start Team members (Testimonails) -->
     <h2 class="main-title">Team Members</h2>
     <div class="testimonial" id="team members">
@@ -316,7 +288,7 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi odit non, dolor!
                 </p>
             </div>
-
+            
             <div class="box">
                 <img src="image/person (2).jpeg" alt="">
                 <h3>Ahmed</h3>
@@ -342,7 +314,7 @@
                     <i class="filled fa fa-star-o"></i>
                     <i class="filled fa fa-star-o"></i>
                     <i class="fa fa-star-o"></i>
-
+                    
                 </div>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi odit non, dolor!
@@ -393,11 +365,11 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi odit non, dolor!
                 </p>
             </div>
-
+            
         </div>
     </div>
     <div class="spikes"></div>
-
+    
     <!-- End Team members (Testimonails)-->
     <!-- Start Service -->
     <div class="services" id="services">
@@ -410,7 +382,7 @@
                     <a href="#">Details</a>
                 </div>
             </div>
-
+            
             <div class="boxx">
                 <i class="fa fa-wrench fa-4x"></i>
                 <h3>Fixing issues</h3>
@@ -418,7 +390,7 @@
                     <a href="#">Details</a>
                 </div>
             </div>
-
+            
             <div class="boxx">
                 <i class="fa fa-map-marker fa-4x"></i>
                 <h3>Location</h3>
@@ -426,7 +398,7 @@
                     <a href="#">Details</a>
                 </div>
             </div>
-
+            
             <div class="boxx">
                 <i class="fa fa-laptop fa-4x" aria-hidden="true"></i>
                 <h3>Coding</h3>
@@ -434,7 +406,7 @@
                     <a href="#">Details</a>
                 </div>
             </div>
-
+            
             <div class="boxx">
                 <i class="fa fa-bar-chart fa-4x"></i>
                 <h3>Marketing</h3>
@@ -442,7 +414,7 @@
                     <a href="#">Details</a>
                 </div>
             </div>
-
+            
             <div class="boxx">
                 <i class="fa fa-user fa-4x"></i>
                 <h3>Security</h3>
@@ -453,7 +425,7 @@
         </div>
     </div>
     <div class="spikes"></div>
-
+    
     <!-- End service -->
     <!-- Start skills -->
     <div class="our-skills" id="our skills">
@@ -489,7 +461,7 @@
         </div>
     </div>
     <div class="spikes"></div>
-
+    
     <!-- End skills -->
     <!-- Start Games -->
     <div class="games" id="games">
@@ -518,7 +490,7 @@
                     <p>Simple short Descreption</p>
                 </div>
             </div>
-
+            
             <div class="box">
                 <div class="data">
                     <img src="image/mini (1).png" alt="">
@@ -542,10 +514,10 @@
                     <p>Simple short Descreption</p>
                 </div>
             </div>
-
+            
             <div class="box">
                 <div class="data">
-
+                    
                     <img src="image/mini (2).jpeg" alt="">
                     <div class="social">
                         <a href="#">
@@ -567,10 +539,10 @@
                     <p>Simple short Descreption</p>
                 </div>
             </div>
-
+            
             <div class="box">
                 <div class="data">
-
+                    
                     <img src="image/mini (3).jpeg" alt="">
                     <div class="social">
                         <a href="#">
@@ -616,10 +588,10 @@
                     <p>Simple short Descreption</p>
                 </div>
             </div>
-
+            
             <div class="box">
                 <div class="data">
-
+                    
                     <img src="image/mini (5).png" alt="">
                     <div class="social">
                         <a href="#">
@@ -644,7 +616,7 @@
         </div>
     </div>
     <div class="spikes"></div>
-
+    
     <!-- End Games -->
     <!-- Start work steps -->
     <div class="work-steps" id="how It Work">
@@ -652,7 +624,7 @@
         <div class="container">
             <img src="image/work-steps (1) another copy.jpeg" alt="" id="image">
             <div class="info">
-
+                
                 <div class="box">
                     <div class="image">
                         <img src="image/work-steps (2).png" alt="">
@@ -661,34 +633,34 @@
                         <h3>Business Analysis</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, consectetur, modi
                             adipisci cum</p>
+                        </div>
+                    </div>
+                    
+                    <div class="box">
+                        <img src="image/work-steps (1).png" alt="">
+                        <div class="text">
+                            <h3>Architecture</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, consectetur, modi
+                                adipisci cum</p>
                     </div>
                 </div>
-
-                <div class="box">
-                    <img src="image/work-steps (1).png" alt="">
-                    <div class="text">
-                        <h3>Architecture</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, consectetur, modi
-                            adipisci cum</p>
-                    </div>
-                </div>
-
+                
                 <div class="box">
                     <img src="image/work-steps (4).png" alt="">
                     <div class="text">
                         <h3>Development</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, consectetur, modi
                             adipisci cum </p>
+                        </div>
                     </div>
-                </div>
-
+                    
             </div>
         </div>
     </div>
     <div class="spikes"></div>
-
+    
     <!-- End work steps -->
-
+    
     <!-- Start events -->
     <div class="events" id="events">
         <h2 class="main-title">Latest Events</h2>
@@ -728,10 +700,10 @@
         </div>
     </div>
     <div class="spikes"></div>
-
+    
     <!-- End events -->
     <!--Start Pricing -->
-
+    
     <div class="pricing" id="pricing">
         <h2 class="main-title">Pricing Plan</h2>
         <div class="container">
@@ -751,7 +723,7 @@
                 </ul>
                 <a href="#">Choose a plan</a>
             </div>
-
+            
             <div class="box popular" id="box">
                 <div class="label">Most Popular </div>
                 <h3 class="title">Advanced</h3>
@@ -769,7 +741,7 @@
                 </ul>
                 <a href="#">Choose a plan</a>
             </div>
-
+            
             <div class="box">
                 <h3 class="title">Profisional</h3>
                 <img src="image/white and blue (3).png" alt="">
@@ -789,7 +761,7 @@
         </div>
     </div>
     <div class="spikes"></div>
-
+    
     <!-- End pricing-->
     <!-- Start videos -->
     <div class="videos" id="videos">
@@ -821,7 +793,7 @@
         </div>
     </div>
     <div class="spikes"></div>
-
+    
     <!-- End videos -->
     <!-- start stats -->
     <div class="stats" id="stats">
@@ -859,7 +831,7 @@
                     <li>
                         <a href="">
                             <i class="fa fa-facebook "></i>
-
+                            
                         </a>
                     </li>
                     <li>
@@ -871,7 +843,7 @@
                         <a href="">
                             <i class="fa fa-twitter "></i>
                         </a>
-
+                        
                     </li>
                 </ul>
                 <p>
@@ -883,34 +855,49 @@
                 <ul class="links">
                     <li><a href="#">Important Links 1</li>
                     <li><a href="#">Important Links 2</li>
-                    <li><a href="#">Important Links 3</li>
-                    <li><a href="#">Important Links 4</li>
-                    <li><a href="#">Important Links 5</li>
-                </ul>
-            </div>
-            <div class="boxx">
-                <div class="line">
-                    <i class="fa fa-map-marker"></i>
-                    <div class="info">Kigali Krehe Mahama</div>
-                </div>
-                <div class="line">
-                    <i class="fa fa-clock-o"></i>
-                    <div class="info">Work Hours: from 08:30 To 12:40</div>
-                </div>
-                <div class="line">
-                    <i class="fa fa-volume-control-phone"></i>
-                    <span class="info">+250734579530</span>
-                </div>
-            </div>
-        </div>
-        <p class="copyright">Made With &copy; By OMAR</p>
-    </div>
-    <button id="btn"
-        style="position: fixed;bottom: 0;right: 0; display:none;z-index: 1111; background-color: transparent;">
-        <i id="arrow-up" class=" fa fa-arrow-up" aria-hidden="true"></i>
-    </button>
-    <!-- End Footer -->
-
+                        <li><a href="#">Important Links 3</li>
+                            <li><a href="#">Important Links 4</li>
+                                <li><a href="#">Important Links 5</li>
+                                </ul>
+                            </div>
+                            <div class="boxx">
+                                <div class="line">
+                                    <i class="fa fa-map-marker"></i>
+                                    <div class="info">Kigali Krehe Mahama</div>
+                                </div>
+                                <div class="line">
+                                    <i class="fa fa-clock-o"></i>
+                                    <div class="info">Work Hours: from 08:30 To 12:40</div>
+                                </div>
+                                <div class="line">
+                                    <i class="fa fa-volume-control-phone"></i>
+                                    <span class="info">+250734579530</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="copyright">Made With &copy; By OMAR</p>
+                    </div>
+                    <button id="btn" style="position: fixed;bottom: 0;right: 0; display:none;z-index: 1111; background-color: transparent;">
+                        <i id="arrow-up" class=" fa fa-arrow-up" aria-hidden="true"></i>
+                    </button>
+                    <!-- End Footer -->
+                    <script>
+                        let btn = document.getElementById("btn");
+                        window.onscroll = function(){
+                            if(window.scrollY >= 1600) {
+                                btn.style.display = "block";
+                            }else{
+                                btn.style.display = "none";
+                            }
+                        }
+    btn.onclick = function(){
+        window.scrollTo({
+            left:0,
+            top:0,
+            behavior: "smooth"
+        })
+    }
+    </script>
 </body>
 
 </html>
